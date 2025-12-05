@@ -69,6 +69,8 @@ def solve2opt(path, distmatrix, starttime):
                     improved = True
         
             # sometimes i kept going deeper and deeper and it passed the time limit so i added this to check every 5000 cycles
+
+            #  this is what causes it to go slighlty over 59 seconds but it's fine, helps us be in check 
             if count % 5000 == 0:
                 if time.time() - starttime > timelimit:
                     return currpath, count
