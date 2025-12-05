@@ -1,0 +1,22 @@
+kavinrajasekaran@Kavins-MacBook-Pro-3 hw3 % /usr/bin/python3 /Users/kavinrajasekaran/Documents/UCDavis/EEC289Q/homeworks/hw3/opt.py
+Loading data from: graphs/TSP_1000_euclidianDistance.txt
+Starting optimization...
+Run 1 : Cost 2576.2
+Run 2 : Cost 2552.09
+Total Runs: 31
+Time Used: 59.03 s
+Final Cost: 2552.09
+Cycles: 116090000
+------------------------------
+Loading data from: graphs/TSP_1000_randomDistance.txt
+Starting optimization...
+Run 1 : Cost 444.2
+Run 2 : Cost 398.17
+Run 10 : Cost 377.42
+Total Runs: 21
+Time Used: 59.03 s
+Final Cost: 377.42
+Cycles: 116659000
+------------------------------
+Saved to solution_919711804.txt
+kavinrajasekaran@Kavins-MacBook-Pro-3 hw3 % 
